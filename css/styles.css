@@ -1,0 +1,152 @@
+.line-gray{
+	background: #5f5f60;
+	height: 10px;
+}
+
+.line-blue{
+	background: #007473;
+	height: 5px;
+}
+
+header{
+	background: #F7F5F5;
+}
+
+	#navbar{ /*Reset menu Bootstrap*/
+		background: transparent;
+		border: transparent;
+		border-radius: 0;
+		display: inline-block;
+		float: right;
+		font-size: 1.1em;
+		font-weight: bold;
+		margin-bottom: 0;
+		margin-top: 124px;
+	}
+
+	#navbar-logo{
+			margin: 20px 0;
+		}
+
+		.li-navbar{
+			text-align: center;
+			width: 140px;
+		}
+
+		.li-navbar:nth-child(2){
+			border-left: 1px solid #007473;
+			border-right: 1px solid #007473;
+		}
+
+			.navbar-default .navbar-nav>li>a {
+			    color: #007473;
+			}
+
+	@media (max-width: 768px){
+
+		#navbar{
+			background: transparent;
+			position: absolute;
+			right: 0;
+			width: 100%;
+		}
+
+		#navbar-1{
+			background: #fff;
+			border: 1px solid #E0E0E0;
+			box-shadow: 0px 5px 5px rgba(0,0,0,.3);
+			position: absolute;
+			width: 100%;
+			z-index: 9999;
+		}
+
+		.li-navbar{
+			text-align: center;
+			padding: 10px 0 10px 20px;
+			width: 100%;
+		}
+
+		.li-navbar:nth-child(2){
+			border-left: 0px;
+			border-right: 0px;
+			border-top: 1px solid #E0E0E0;
+			border-bottom: 1px solid #E0E0E0;
+		}
+
+		.a-navbar{
+			width: 100%;
+		}
+
+		.carousel-caption{
+			display: none;
+		}
+	}
+
+.container-slide{
+	height: 100%;
+}
+
+.container:nth-child(even){
+	background: orange;
+}
+
+.container-slide{
+	z-index: -9999;
+}
+
+.container-all-services{
+	margin-top:75px;
+	margin-bottom: 75px;
+	height: 400px;
+}
+
+	.container-service{	
+		height: 400px;
+	}
+
+	.service{
+		border: 1px solid #E0E0E0;
+		border-radius: 10px 10px 0 0;
+		height: 100%;
+		overflow: hidden;
+	}
+		.img-services{
+			background: url(http://dummyimage.com/358x180/007473/ffffff);        
+		    background-repeat:no-repeat;
+			-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+			background-position:center; 
+			height: 180px;
+			width: 100%; 
+		}
+
+		.title-service{
+			color: #007473;
+			font-size: 1.3em;
+			font-weight: 200;
+			margin-top: 20px;
+		}
+
+		.text-service{
+			margin-top: 45px;
+			padding: 0 20px;
+		}
+
+footer{
+	background: blue;
+	height: 272px;
+}
+
+	.container-footer{
+		background: red;
+		height: 100%;
+	}
+
+
+
+
+
+
+
