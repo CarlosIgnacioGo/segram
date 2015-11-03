@@ -97,7 +97,6 @@ header{
 .container-all-services{
 	margin-top:75px;
 	margin-bottom: 75px;
-	height: 400px;
 }
 
 	.container-service{	
@@ -134,15 +133,54 @@ header{
 			padding: 0 20px;
 		}
 
+	@media (max-width: 1200px){
+		.container-all-services{
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+			.container-service:nth-child(1){
+				padding-top: 40px;
+			}
+
+			.container-service{
+				padding-bottom: 40px;
+			}
+	}
+
 footer{
-	background: blue;
-	height: 272px;
+	background: #007473;
 }
 
 	.container-footer{
-		background: red;
+		color: #fff;
 		height: 100%;
 	}
+
+	.col-footer{
+		
+	}
+	
+	.col-footer:nth-child(2),
+	.col-footer:nth-child(3),
+	.col-footer:nth-child(4){
+		margin: 20px 0 20px 0;
+		text-align: center;
+	}
+
+		.video-footer{
+			height: 272px;
+			padding: 20px 0;
+			width: 100%;
+		}
+
+		.text-footer{
+			margin: 0;
+		}
+
+			.glyphicon{
+				font-size: 3em;
+			}
 
 
 
