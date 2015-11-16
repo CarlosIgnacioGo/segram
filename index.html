@@ -2,16 +2,18 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Segram</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
 </head>
 <body>
 	<div class="line-gray"></div>
 	<header>
 		<div class="container">
 			<img id="navbar-logo" src="img/logo.jpg" alt="" style="width:100px;">
+			<h5 id="text-logo">Servicios Grafológicos del Maule</h5>
 			<nav id="navbar" class="navbar navbar-default">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
@@ -24,13 +26,62 @@
 				</div>
 				<div id="navbar-1" class="navbar-desplegable collapse navbar-collapse navbar-right" >
 					<ul class="nav navbar-nav navbar-desplegable-li">
-						<li class="li-navbar"><a href="#" class="a-navbar">INICIO</a></li>
-						<li class="li-navbar"><a href="#" class="a-navbar">SERVICIOS</a></li>
-						<li class="li-navbar"><a href="#" class="a-navbar">CONTACTO</a></li>
+						<li class="li-navbar">
+							<a href="#modal_4" class="a-navbar" data-toggle="modal">NOSOTROS</a>
+						</li>
+						<li class="li-navbar"><a href="#modal_5" class="a-navbar" data-toggle="modal">SERVICIOS</a></li>
+						<!--<li class="li-navbar"><a href="#" class="a-navbar">CONTACTO</a></li>-->
+						<li class="dropdown li-navbar">
+				          <a href="#" class="dropdown-toggle a-navbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACTO<span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="mailto:info@segram.cl">E-mail</a></li>
+				            <li><a href="https://www.facebook.com/Servicios-Grafol%C3%B3gicos-del-Maule-492871190873711/timeline?__mref=message_bubble" target="blank">Facebook</a></li>
+				            <li><a href="https://twitter.com/Grafoanalista7" target="blank">Twitter</a></li>
+				          </ul>
+				        </li>
 					</ul>
 				</div>
 			</nav>
 		</div>
+		<!--MODAL 4-->
+		<section class="modal fade" id="modal_4" style="z-index:99999;">
+			<section class="modal-dialog">
+				<section class="modal-content">
+					<article class="modal-header">
+						<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true" >&times;</button>
+						<h2 class="modal-title">HOLA!</h2>
+					</article>
+					<article class="modal-body">
+						<img src="img/nosotros-int.jpg" alt="" class="img-responsive">
+						<br>
+						<p class="text-modal">Una escritura armónica proyecta una conducta equilibrada. Mediante la modificación de ciertos gestos escriturales podemos obtener cambios satisfactorios en el 
+			comportamiento de un ser humano, reforzando su voluntad y permitiendo desarrollar todo su potencial. Mejorar la autodisciplina,reforzar la concentración,la constancia 
+			en la tareas,encausar la energía evitando la agresividad,elevar la autoestima y la autovaloración  así como reducir significativamente la timidez,temores
+			e inseguridades. Sistema aplicable tanto en infantojuveniles como en adultos.Contáctanos para ver la disponibilidad en tu ciudad. </p>
+					</article>
+				</section>
+			</section>
+		</section>
+
+		<!--MODAL 5-->
+		<section class="modal fade" id="modal_5" style="z-index:99999;">
+			<section class="modal-dialog">
+				<section class="modal-content">
+					<article class="modal-header">
+						<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true" >&times;</button>
+						<h2 class="modal-title">MODAL 5</h2>
+					</article>
+					<article class="modal-body">
+						<img src="img/service-menu-int.jpg" alt="" class="img-responsive">
+						<br>
+						<p class="text-modal">Una escritura armónica proyecta una conducta equilibrada. Mediante la modificación de ciertos gestos escriturales podemos obtener cambios satisfactorios en el 
+			comportamiento de un ser humano, reforzando su voluntad y permitiendo desarrollar todo su potencial. Mejorar la autodisciplina,reforzar la concentración,la constancia 
+			en la tareas,encausar la energía evitando la agresividad,elevar la autoestima y la autovaloración  así como reducir significativamente la timidez,temores
+			e inseguridades. Sistema aplicable tanto en infantojuveniles como en adultos.Contáctanos para ver la disponibilidad en tu ciudad. </p>
+					</article>
+				</section>
+			</section>
+		</section>
 	</header>
 
 	<div class="container-fluid container-slide">
@@ -44,25 +95,25 @@
 
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="http://dummyimage.com/2000x1000/007473/fff" alt="" class="img-responsive">
+						<img src="img/slide-1.jpg" alt="" class="img-responsive">
 						<div class="carousel-caption">
-							<h3>Slide numero #1</h3>
+							<h3>Sistema de Análisis y Re-programación Neuroescritural</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta adipisci harum eligendi iusto impedit accusamus, debitis tenetur tempore enim, laudantium deleniti error, provident ea quos quis facere explicabo voluptatum assumenda?</p>
 						</div>
 					</div>
 
 					<div class="item">
-						<img src="http://dummyimage.com/2000x1000/007473/fff" alt="" class="img-responsive">
+						<img src="img/slide-2.jpg" alt="" class="img-responsive">
 						<div class="carousel-caption">
-							<h3>Slide numero #2</h3>
+							<h3>Difundimos,aplicamos y enseñamos </h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus inventore nulla placeat facere repellendus quis, assumenda, mollitia eveniet rem, commodi qui accusamus impedit nisi asperiores sequi fuga repellat laboriosam. Dolorem!</p>
 						</div>
 					</div>
 
 					<div class="item">
-						<img src="http://dummyimage.com/2000x1000/007473/fff" alt="" class="img-responsive">
+						<img src="img/slide-3.jpg" alt="" class="img-responsive">
 						<div class="carousel-caption">
-							<h3>Slide numero #3</h3>
+							<h3>Un aporte gratuito para el desarrollo y equilibrio del ser humano  </h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit modi nostrum porro temporibus non sunt dolor vel debitis deleniti adipisci esse dolorum eaque, expedita magni quidem. Tenetur debitis impedit, corrupti.</p>
 						</div>
 					</div>
@@ -81,28 +132,107 @@
 	</div>	
 	<div class="line-blue"></div>
 
-	<div class="container-all-services container">
+	<div class="container-all-services container" id="spy-servicios">
 		<section class="row">
 			<articles class="container-service col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
-				<div class="service">
-					<div class="img-services"></div>  
-					<p class="title-service">TITULO SERVICIO</p>
-					<p class="text-service">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</div>
+				<a href="#modal_1" class="link-service" data-toggle="modal">
+					<div class="service">
+						<div class="img-services" id="service-1"></div>  
+						<p class="title-service">CURSO DE ESPECIALIZACIÓN</p>
+						<p class="text-service">¡Especilízate! dale un plus a tu profesión,aprende con ...</p>
+						<br><br>
+						<p class="ver-mas-service">Ver Mas ></p>
+					</div>
+				</a>
+
+				<!--MODAL 1-->
+				<section class="modal fade" id="modal_1">
+					<section class="modal-dialog">
+						<section class="modal-content">
+							<article class="modal-header">
+								<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true" >&times;</button>
+								<h2 class="modal-title">CURSO DE ESPECIALIZACIÓN</h2>
+							</article>
+							<article class="modal-body">
+								<img src="img/service-int-1.jpg" alt="" class="img-responsive">
+								<br>
+								<p class="text-modal">¡Especialízate! dale un plus a tu profesión,aprende con nosotros este sistema decodificador de los trazos escriturales y genera cambios en tu medio laboral.
+ Una gran herramienta de trabajo para los profesionales del mundo de la educación y social; pedagogos en educación básica,psicopedagógos,educadores
+y técnicos diferenciales,asistentes y técnicos de educación parvularia y básica,técnicos de nivel superior en asistente de la educación,técnicos en trabajo social,
+entre otros.Contáctanos,para ver la disponibilidad del curso en tu ciudad</p>
+							</article>
+							<article class="modal-footer">
+								<a href="mailto:info@segram.cl" class="btn btn-general">¿Interesado?</a>
+							</article>
+						</section>
+					</section>
+				</section>
+			</articles>
+
+			<articles class="container-service col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+				<a href="#modal_2" class="link-service" data-toggle="modal">
+					<div class="service">
+						<div class="img-services" id="service-2"></div> 
+						<p class="title-service">RE-PROGRAMACIÓN NEUROESCRITURAL</p>
+						<p class="text-service">Una escritura armónica proyecta una conducta equilibrada ...</p>
+						<br><br>
+						<p class="ver-mas-service">Ver Mas ></p>
+				    </div>
+			    </a>
+
+			    <!--MODAL 2-->
+				<section class="modal fade" id="modal_2">
+					<section class="modal-dialog">
+						<section class="modal-content">
+							<article class="modal-header">
+								<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true" >&times;</button>
+								<h2 class="modal-title">RE-PROGRAMACIÓN NEUROESCRITURAL</h2>
+							</article>
+							<article class="modal-body">
+								<img src="img/service-int-2.jpg" alt="" class="img-responsive">
+								<br>
+								<p class="text-modal">Una escritura armónica proyecta una conducta equilibrada. Mediante la modificación de ciertos gestos escriturales podemos obtener cambios satisfactorios en el 
+comportamiento de un ser humano, reforzando su voluntad y permitiendo desarrollar todo su potencial. Mejorar la autodisciplina,reforzar la concentración,la constancia 
+en la tareas,encausar la energía evitando la agresividad,elevar la autoestima y la autovaloración  así como reducir significativamente la timidez,temores
+e inseguridades. Sistema aplicable tanto en infantojuveniles como en adultos.Contáctanos para ver la disponibilidad en tu ciudad. </p>
+							</article>
+							<article class="modal-footer">
+								<a href="mailto:info@segram.cl" class="btn btn-general">¿Interesado?</a>
+							</article>
+						</section>
+					</section>
+				</section>
 			</articles>
 			<articles class="container-service col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
-				<div class="service">
-					<div class="img-services"></div> 
-					<p class="title-service">TITULO SERVICIO</p>
-					<p class="text-service">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-			    </div>
-			</articles>
-			<articles class="container-service col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
-				<div class="service">
-					<div class="img-services"></div> 
-					<p class="title-service">TITULO SERVICIO</p>
-					<p class="text-service">Lorem ipsum dolor sit amet, consectetur </p>
-				</div>
+				<a href="#modal_3" class="link-service" data-toggle="modal">
+					<div class="service">
+						<div class="img-services" id="service-3"></div> 
+						<p class="title-service">PERFIL VOCACIONAL Y LABORAL</p>
+						<p class="text-service">Descubre con nosotros tu tendencia vocacional y laboral ...</p>
+						<br><br>
+						<p class="ver-mas-service">Ver Mas ></p>
+					</div>
+				</a>
+
+				<!--MODAL 3-->
+				<section class="modal fade" id="modal_3">
+					<section class="modal-dialog">
+						<section class="modal-content">
+							<article class="modal-header">
+								<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true" >&times;</button>
+								<h2 class="modal-title">PERFIL VOCACIONAL Y LABORAL</h2>
+							</article>
+							<article class="modal-body">
+								<img src="img/service-int-3.jpg" alt="" class="img-responsive">
+								<br>
+								<p class="text-modal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque laboriosam, corrupti officia quam veniam assumenda similique natus. Deserunt doloremque, autem cumque! Quibusdam beatae delectus numquam reprehenderit id impedit dignissimos dolores. dolor sit amet, consectetur adipisicing elit. Consectetur, tempore hic labore incidunt quam recusandae porro. Nemo, quod! Magnam et laborum aliquam temporibus est voluptatibus, eos velit voluptas autem laudantium.</p>
+							</article>
+							<article class="modal-footer">
+								<a href="mailto:info@segram.cl" class="btn btn-general">¿Interesado?</a>
+							</article>
+						</section>
+					</section>
+				</section>
 			</articles>
 		</section>
 	</div>
@@ -111,32 +241,34 @@
 		<section class="container container-footer">
 			<section class="row">
 				<article class="col-md-6 col-footer">
-					<iframe class="video-footer" src="https://www.youtube.com/embed/vRxIavp2rik" frameborder="0" allowfullscreen></iframe>
+					<iframe class="video-footer" src="https://www.youtube.com/embed/eAwDcJw3hJk" frameborder="0" allowfullscreen></iframe>
 				</article>
 				<article class="col-md-2 col-footer">
 					<span class="glyphicon glyphicon-map-marker"></span>
 					<h4>Dirección</h4>
-					<p class="text-footer">Nueva Providencia</p>
-					<p class="text-footer">1881, Of. 1205. </p>
-					<p class="text-footer">Providencia Santiago</p>
+					<p class="text-footer">Región del Maule - Chile</p>
 				</article>
 				<article class="col-md-2 col-footer">
 					<span class="glyphicon glyphicon-earphone"></span>
 					<h4>Teléfono</h4>
-					<p class="text-footer">(56 2) 294 12 667</p>
+					<p class="text-footer">+56 9 878 22 828</p>
 				</article>
 				<article class="col-md-2 col-footer">
 					<span class="glyphicon glyphicon-envelope"></span>
 					<h4>Email</h4>
-					<p class="text-footer">info@ambec.cl</p>
+					<p class="text-footer"><a href="mailto:info@segram.cl" style="color:#fff;">info@segram.cl</a></p>
 				</article>
 			</section>
 		</section>
 	</footer>
-	<div class="line-gray"></div>
-	<!-- NO BORRAR -->
 
+	<div class="line-gray"></div>
+
+
+	<!-- NO BORRAR -->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/js.js"></script>
 </body>
 </html>
